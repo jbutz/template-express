@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: nodejs
+    image: node
     commands:
       - npm install
       - npm run lint
