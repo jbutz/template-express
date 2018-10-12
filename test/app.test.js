@@ -1,3 +1,5 @@
 describe('app.js', () => {
-    xit('needs tests');
+    xit('needs tests', () => {
+        expect.fail();
+    });
 });
